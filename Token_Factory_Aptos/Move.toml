@@ -4,7 +4,7 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-launchpad_addr = "your_key"
+launchpad_addr = "your_account_address"
 [dev-addresses]
 
 [dependencies.AptosFramework]
