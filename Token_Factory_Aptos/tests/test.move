@@ -9,7 +9,7 @@ module launchpad_addr::tokenadd_test {
 
     #[test]
     fun test_create_fa() {
-        let admin = signer::specify_address(@0x1); // Simulating admin
+        let admin = signer::specify_address(@0x1); // Simulating admin for test
         tokenadd::create_fa(
             &admin,
             option::some(1_000_000), // max_supply
